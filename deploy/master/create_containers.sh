@@ -35,7 +35,7 @@ do
 done
 
 ssh -p 22 root@db bash /root/start-mysql.sh
-ssh -p 22 root@web bash $CODE_HOME/create_container_web.sh
+ssh -p 22 root@web bash $CODE_HOME/create_containers.sh
 ssh root@s1 bash $CODE_HOME/start-nginx.sh
 
 echo "Finished!"
