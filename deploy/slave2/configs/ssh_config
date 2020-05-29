@@ -1,0 +1,10 @@
+Host localhost
+        StrictHostKeyChecking no
+
+Host 0.0.0.0
+        StrictHostKeyChecking no
+  
+Host slave*
+        StrictHostKeyChecking no
+Host master
+        StrictHostKeyChecking no 
